@@ -7,7 +7,7 @@
 Summary:	Old version of a powerful, light-weight programming language
 Name:		lua5.2
 Version:	5.2.4
-Release:	2
+Release:	3
 License:	MIT
 Group:		Development/Other
 Url:		http://www.lua.org/
