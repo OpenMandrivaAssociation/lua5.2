@@ -115,7 +115,7 @@ This package contains the static development files for Lua.
 
 %prep
 %setup -qn lua-%{version}
-%apply_patches
+%autopatch -p1
 mkdir -p etc
 cp %{SOURCE1} ./etc/
 sed -i -e 's/@MAJOR_VERSION@/%{major}/g' ./etc/lua.pc
